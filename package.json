@@ -1,0 +1,32 @@
+{
+  "name": "bml-receipt-scanner",
+  "version": "1.1.0",
+  "description": "OCR-based receipt scanner for Bank of Maldives transfer receipts",
+  "main": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ocr",
+    "receipt",
+    "scanner",
+    "bml",
+    "bank-of-maldives",
+    "tesseract"
+  ],
+  "author": "",
+  "license": "ISC",
+  "files": [
+    "dist"
+  ],
+  "dependencies": {
+    "tesseract.js": "^6.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}

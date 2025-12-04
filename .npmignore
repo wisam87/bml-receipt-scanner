@@ -1,0 +1,6 @@
+src/
+test-local.ts
+tsconfig.json
+*.jpeg
+node_modules/
+.DS_Store
