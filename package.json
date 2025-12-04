@@ -1,5 +1,5 @@
 {
-  "name": "bml-receipt-scanner",
+  "name": "@mwisam/bml-receipt-scanner",
   "version": "1.1.0",
   "description": "OCR-based receipt scanner for Bank of Maldives transfer receipts",
   "main": "dist/src/index.js",
@@ -18,6 +18,14 @@
   ],
   "author": "",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wisam87/bml-receipt-scanner.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wisam87/bml-receipt-scanner/issues"
+  },
+  "homepage": "https://github.com/wisam87/bml-receipt-scanner#readme",
   "files": [
     "dist"
   ],
